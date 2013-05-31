@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- start category button -->
+
+    <Button
+        android:id="@+id/main_category_btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector3"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" 
+        android:text="@string/main_no_notes" />
+    <!-- end category button -->
+
+    <ListView
+        android:id="@+id/main_list1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

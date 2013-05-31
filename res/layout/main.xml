@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/main_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- start content -->
+
+    <ViewFlipper
+        android:id="@+id/main_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- start list view -->
+
+        <include layout="@layout/main_list1" />
+        <!-- end list view -->
+
+
+        <!-- start slide view -->
+
+        <include layout="@layout/main_list2" />
+        <!-- end slide view -->
+
+    </ViewFlipper>
+    <!-- end content -->
+
+</LinearLayout>
